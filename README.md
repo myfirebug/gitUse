@@ -139,7 +139,7 @@ index.txt,config.txt
 修改bug后，把bug分支合并到master分支上
  
 再次从容切换到wxchart分支上，接着开发微信支付功能，开发完成后，把wxchart分支合并到master分支上
-``` 
+```
 ## 3.1查看分支
 ```
 命令：git branch
@@ -158,7 +158,7 @@ Git checkout wxchart
 首页要切换到master分支
 Git checkout master
 Git merge dev
-``` 
+```
 ## 3.5删除分支
 ```
 Git branch -d dev
