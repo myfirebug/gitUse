@@ -170,10 +170,13 @@ Git checkout -b dev
 Git remote
 查看远程仓库地址：
 Git remote -v
- 
+```
 ## 删除远程库别名
+```
 Git remote remove <远程库名>
-##添加远程库
+```
+## 添加远程库
+```
 Git remote add <远程库名> <远程库地址>
 ```
 # 5公钥登录
