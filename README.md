@@ -92,6 +92,7 @@ cd f:
 git clone https://github.com/myfirebug/text.git;
 ```
 # 2代码管理
+
 ## 2.1工作区和版本库
 ```
 如果你想清晰的学习git你必须要了解3三个重要的区域
