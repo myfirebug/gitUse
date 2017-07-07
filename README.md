@@ -85,7 +85,8 @@ git origin master
 ```
 ## 1.5.4团队合作
 ```
-首先进入github 进入相应的仓库点击settings->collaborators 在右边的文本框中输入合作的名称（这里里以resourceMap举例）点击add collaborator按钮会给对方的发一封邮件等待对方确认就可以了
+首先进入github 进入相应的仓库点击settings->collaborators 在右边的文本框中输入合作的名称（这里里以resourceMap举例）
+点击add collaborator按钮会给对方的发一封邮件等待对方确认就可以了
 
 //模拟resourceMap用户
 
@@ -193,7 +194,9 @@ Git remote add <远程库名> <远程库地址>
 Git remote add origin git@github.com:myfirebug/text.git
  
 2、创建ssh key
-Ssh-keygen -t rsa -c ‘myfirebug.com’把邮件地址换成你自己的邮件地址，回车即可，可以在用户主目录里找到.ssh目录，内有id_rsa放id_rsa.pub两个文件，id_rsa是私钥，id_rsa.pub是公钥,这两把钥匙是成对的，可以让分别持有私钥和公钥的双方相互认识
+Ssh-keygen -t rsa -c ‘myfirebug.com’把邮件地址换成你自己的邮件地址，回车即可，
+可以在用户主目录里找到.ssh目录，内有id_rsa放id_rsa.pub两个文件，id_rsa是私钥，
+id_rsa.pub是公钥,这两把钥匙是成对的，可以让分别持有私钥和公钥的双方相互认识
 3、把公钥放在服务器
 用词本打开id_rsa.pub复件公钥内容
 登录github.com
