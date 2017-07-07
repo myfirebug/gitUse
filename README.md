@@ -20,6 +20,7 @@ git config --global user.name #你是谁
 git config --global user.emial #怎么联系你
 ```
 # 1.4 代码管理
+
 ## 1.4.1创建版本库
 ```git
 cd e:/
@@ -109,8 +110,9 @@ git log 查看项目的日志
 git log <file> 查看某个文件的日志
 git log . 查看本目录的日志
 git log --pretty=oneline 让日志单行显示
-``` 
+```
 # 3分支管理
+
 ```
 在开发中，遇到这样的情况怎么样？
 网站已有支付宝在线支付功能，要添加微信支付
