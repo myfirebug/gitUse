@@ -21,7 +21,7 @@ git config --global user.emial #怎么联系你
 ```
 # 1.4 代码管理
 ## 1.4.1创建版本库
-```
+```git
 cd e:/
 mkdir domo
 git init
