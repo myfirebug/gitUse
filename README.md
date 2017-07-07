@@ -111,6 +111,12 @@ git log 查看项目的日志
 git log <file> 查看某个文件的日志
 git log . 查看本目录的日志
 git log --pretty=oneline 让日志单行显示
+
+版本回退:
+Git reset --hard HEAD^ 回退一个版本
+Git reset --hard 版本号
+
+Git reflog  查看版本号
 ```
 # 3分支管理
 
@@ -204,9 +210,5 @@ id_rsa.pub是公钥,这两把钥匙是成对的，可以让分别持有私钥和
 Settings->SSH add GPG keys 
  
 
-版本回退:
-Git reset --hard HEAD^ 回退一个版本
-Git reset --hard 版本号
 
-Git reflog  查看版本号
 ```
