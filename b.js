@@ -3,4 +3,3 @@ let b = 'get history diff'
 let c = 2
 let e = 10
 let d = 3
-let f = 123
